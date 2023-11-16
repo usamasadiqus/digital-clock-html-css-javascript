@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.container::before {
+/* .container::before {
     content: "";
     width: 180px;
     height: 180px;
@@ -28,7 +28,7 @@
     top: -50px;
     left: -50px;
     z-index: -1;
-}
+} */
 
 .container {
     width: 800px;
@@ -39,7 +39,7 @@
     transform: translate(-50%, -50%);
 }
 
-.container::after {
+/* .container::after {
     content: "";
     width: 180px;
     height: 180px;
@@ -49,7 +49,7 @@
     bottom: -30px;
     right: -50px;
     z-index: -1;
-}
+} */
 
 .clock {
     width: 100%;
